@@ -1,0 +1,135 @@
+body {
+	background-color: rgba(0, 0, 0, 0.9)
+	
+}
+.haber {
+	color: Grey;
+	
+}
+nav{
+	margin: 15px;
+	font-size: 20px;
+	
+}
+nav a{
+	color: grey;
+	
+}
+h3 {
+	color: green;
+	font-size: 30px;
+	margin: 0px;
+}
+h2{
+	margin: 0px;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+hr {
+	margin: 0px;
+	background-color: grey;
+}
+a {
+	text-decoration: none;
+	color: green;
+}
+a:hover{
+	transform: scale(1.05);
+	transition: 0.2s;
+	display: inline-block;
+	color: darkgreen;
+}
+#haber1{
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#haber1 img{
+	border-radius: 25px;
+}
+#haber1-metin h3{
+	margin: 0 0 10px 0;
+	
+}
+#haber1-metin p{
+	margin: 0;
+	font-size: 22px;
+	
+}
+#haber2{
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#haber2 img{
+	border-radius: 25px;
+}
+#haber2-metin h3{
+	margin: 0 0 10px 0;
+	
+}
+#haber2-metin p{
+	margin: 0;
+	font-size: 22px;
+	
+}
+#haber3{
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#haber3 img{
+	border-radius: 25px;
+}
+#haber3-metin h3{
+	margin: 0 0 10px 0;
+	
+}
+#haber3-metin p{
+	margin: 0;
+	font-size: 22px;
+}
+#haber4{
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#haber4 img{
+	border-radius: 25px;
+}
+#haber4-metin h3{
+	margin: 0 0 10px 0;
+	
+}
+#haber4-metin p {
+	margin: 0px;
+	font-size: 22px;
+}
+#haber5{
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#haber5 img{
+	border-radius: 25px;
+	
+}
+#haber5-metin h3{
+	margin: 0 0 10px 0;
+	
+}
+#haber5-metin p{
+	margin: 0;
+	font-size: 22px;
+}
