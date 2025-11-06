@@ -1,0 +1,65 @@
+body {
+	background-color: rgba(0, 0, 0, 0.9)
+	
+}
+.default {
+	color: Grey;
+	
+}
+nav{
+	margin: 15px;
+	font-size: 20px;
+	
+}
+nav a{
+	color: grey;
+	
+}
+main{
+	max-width: 1200px;
+	
+}
+b{
+	color: green;
+	
+}
+#imgdesc h6{
+	color: Dimgrey;
+	margin-top: 0px;
+	margin-bottom: 35px;
+}
+h3 {
+	color: green;
+	font-size: 30px;
+	margin-top: 0px;
+}
+h5{
+	color: green;
+	font-size: 18px;
+}
+
+h2{
+	margin: 0px;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+}
+h4{
+	color: green;
+	font-size: 20px;
+	
+}
+hr {
+	margin: 0px;
+	background-color: grey;
+}
+a {
+	text-decoration: none;
+	color: green;
+}
+a:hover{
+	transform: scale(1.05);
+	transition: 0.2s;
+	display: inline-block;
+	color: darkgreen;
+}

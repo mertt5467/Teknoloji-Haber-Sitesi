@@ -133,3 +133,22 @@ a:hover{
 	margin: 0;
 	font-size: 22px;
 }
+#haber6 {
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#haber6 img{
+	border-radius: 25px;
+	
+}
+#haber6-metin h3{
+	margin: 0 0 10px 0;
+	
+}
+#haber6-metin p{
+	margin: 0;
+	font-size: 22px;
+}
