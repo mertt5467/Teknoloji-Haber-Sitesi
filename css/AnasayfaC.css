@@ -110,7 +110,7 @@ header *{
 
 
 .haber {
-	color: Grey;
+	color: white;
 	
 }
 nav{
@@ -203,7 +203,7 @@ a:hover{
 	transform: scale(1.05);
 	transition: 0.2s;
 	color: darkgreen;
-} 
+}
 #haber1{
 	display: flex;
 	gap: 20px;
