@@ -7,7 +7,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 400px;
+	padding: 0 150px;
 	min-height: 100px;
 	background-image: url("../images/header.jpg");
 	background-size: cover;
@@ -30,7 +30,7 @@ header *{
 }
 #slider{
 	width: 100%;
-	height: 600px;
+	height: 700px;
 	display: flex;
 	overflow: hidden;
 	position: relative;
@@ -38,7 +38,7 @@ header *{
 .slayt{
 	min-width: 100%;
 	height: 100%;
-	animation: kaydir 30s infinite;
+	animation: kaydir 45s infinite;
 }
 .slayt img{
 	width: 100%;
@@ -100,18 +100,17 @@ header *{
 .baslik a{
 	text-decoration: none;
 	color: white;
-	transition: color 0.3s;
+	transition: color 0.5s;
 }
 
 .baslik a:hover{
-	transition: 0.3s;
+	transition: 0.5s;
 	color: darkgreen;
 }
 
 
 .haber {
 	color: white;
-	
 }
 nav{
 	font-size: 20px;
@@ -121,7 +120,7 @@ nav{
 nav a{
 	color: whitesmoke;
 	text-decoration: none;
-	margin-left: 500px;
+	margin-left: 200px;
 	font-size: 26px;
 	font-family: "Clash Display", sans-serif;
 }
@@ -174,12 +173,14 @@ hr {
 	width: 500px;
 	border-radius: 15px;
 	opacity: 0.6;
-	transition: opacity 0.3s ease;
+	transition: opacity 0.5s ease;
+	transition: 0.5s;
+	transform: scale(1);
 }
 .kategori img:hover{
 	opacity: 1;
+	transition: 0.5s;
 	transform: scale(1.05);
-	
 }
 .kategori h3{
 	position: absolute;
@@ -198,119 +199,32 @@ a {
 	text-decoration: none;
 	color: green;
 	transition: color 0.3s ease;
+	transition: 0.5s;
+	transfom: scale(1);
 }
 a:hover{ 
 	transform: scale(1.05);
-	transition: 0.2s;
+	transition: 0.5s;
 	color: darkgreen;
 }
-#haber1{
+.haberb{
 	display: flex;
 	gap: 20px;
 	align-items: flex-start;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
-#haber1 img{
+.haberb img{
 	border-radius: 25px;
 }
-#haber1-metin h3{
+.haberb-metin h3{
 	margin: 0 0 10px 0;
 }
-#haber1-metin p{
+.haberb-metin p{
 	margin: 0;
 	font-size: 22px;
 	
 }
-#haber2{
-	display: flex;
-	gap: 20px;
-	align-items: flex-start;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-#haber2 img{
-	border-radius: 25px;
-}
-#haber2-metin h3{
-	margin: 0 0 10px 0;
-	
-}
-#haber2-metin p{
-	margin: 0;
-	font-size: 22px;
-	
-}
-#haber3{
-	display: flex;
-	gap: 20px;
-	align-items: flex-start;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-#haber3 img{
-	border-radius: 25px;
-}
-#haber3-metin h3{
-	margin: 0 0 10px 0;
-	
-}
-#haber3-metin p{
-	margin: 0;
-	font-size: 22px;
-}
-#haber4{
-	display: flex;
-	gap: 20px;
-	align-items: flex-start;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-#haber4 img{
-	border-radius: 25px;
-}
-#haber4-metin h3{
-	margin: 0 0 10px 0;
-}
-#haber4-metin p {
-	margin: 0px;
-	font-size: 22px;
-}
-#haber5{
-	display: flex;
-	gap: 20px;
-	align-items: flex-start;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-#haber5 img{
-	border-radius: 25px;
-	
-}
-#haber5-metin h3{
-	margin: 0 0 10px 0;
-	
-}
-#haber5-metin p{
-	margin: 0;
-	font-size: 22px;
-}
-#haber6 {
-	display: flex;
-	gap: 20px;
-	align-items: flex-start;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-#haber6 img{
-	border-radius: 25px;
-	
-}
-#haber6-metin h3{
-	margin: 0 0 10px 0;
-	
-}
-#haber6-metin p{
-	margin: 0;
-	font-size: 22px;
+html {
+    scroll-behavior: smooth;
 }
