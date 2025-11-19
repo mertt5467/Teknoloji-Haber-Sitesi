@@ -117,10 +117,13 @@ nav{
 	background-color: green;
 	padding: 1px;
 }
+nav p{
+	margin-left: 200px;
+	color: white;
+}
 nav a{
 	color: whitesmoke;
 	text-decoration: none;
-	margin-left: 200px;
 	font-size: 26px;
 	font-family: "Clash Display", sans-serif;
 }
